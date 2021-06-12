@@ -1,0 +1,16 @@
+.img {
+    position: relative;
+    animation-name: left-to-right;
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+
+  @keyframes left-to-right {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: 200px;
+    }
+   }
